@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { products } from '../products';
+import { products } from '../products'; /* call the file product.ts giving path */
 
 @Component({
   selector: 'app-product-list',
@@ -7,7 +7,7 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
-products = products;
+  productslist = products;/* link the product list from the product.ts to productslist*/
 
   ngOnInit(): void {
   }
