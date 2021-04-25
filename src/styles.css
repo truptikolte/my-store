@@ -32,3 +32,6 @@ button{
 button:hover{
     background-color: gray;
 }
+.shipping-item{
+     color: rgb(76, 180, 250);
+}
